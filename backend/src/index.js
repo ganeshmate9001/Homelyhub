@@ -24,7 +24,7 @@ app.use(express.urlencoded({limit:"100mb", extended:true}))
 app.use(cookieParser())
 
 app.use(cors({
-    origin:"https://homelyhub-gm.netlify.app/",
+    origin:"https://homelyhub-gm.netlify.app",
     credentials:true
 }))
 
